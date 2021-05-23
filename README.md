@@ -1,0 +1,1 @@
+CREATE TABLE `speedtest`.`tests` ( `id` INT NOT NULL AUTO_INCREMENT , `tester` VARCHAR(255) NULL , `server` VARCHAR(255) NULL , `ping` INT NULL , `download` INT NULL , `upload` INT NULL , `url` TEXT NULL , `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;
