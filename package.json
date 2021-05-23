@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-network-chk",
+  "version": "1.0.0",
+  "description": "checking network connection and speed",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tothstevee/nodejs-network-chk.git"
+  },
+  "author": "tothstevee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tothstevee/nodejs-network-chk/issues"
+  },
+  "homepage": "https://github.com/tothstevee/nodejs-network-chk#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mysql": "^2.18.1",
+    "speedtest-net": "^2.2.0"
+  }
+}
